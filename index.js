@@ -24,7 +24,7 @@ schedule = module.exports = require('node-schedule');
 
 
 nodemailer = module.exports = require('nodemailer');
-// const { uploadFile } = require("./uploads3");
+const { uploadFile } = require("./uploads3");
 
 require("dotenv").config();
 app.use(cors());
