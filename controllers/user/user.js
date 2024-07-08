@@ -4,7 +4,7 @@ const organizationModal = require('../../models/organization/organization');
 const organization_memberModal = require('../../models/organization/organization_member');
 const loginTokenModal = require('../../models/login_token/login_token');
 const { isEmpty } = require('underscore');
-const url = process.env.URL
+const url = process.env.BASE_URL
 module.exports = {
 	REGISTER: async function (data, callback) {
 		//send data
